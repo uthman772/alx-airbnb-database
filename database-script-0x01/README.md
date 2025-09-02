@@ -1,4 +1,4 @@
-# alx-airbnb-database
+# alx-airbnb-database1
 Objective: Write SQL queries to define the database schema (create tables, set constraints).
 
 Instructions:

@@ -30,3 +30,4 @@ INSERT INTO `Property` (`host_id`, `name`, `description`, `location`, `pricepern
 INSERT INTO `Booking` (`user_id`, `property_id`, `amount`, `payment_method`, `status`) VALUES
 (2, 1, 450.00, 'credit_card', 'confirmed'),
 (3, 2, 750.00, 'paypal', 'pending');
+--
