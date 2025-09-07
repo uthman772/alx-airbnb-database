@@ -37,3 +37,16 @@ SELECT property_id, COUNT(*) AS total_bookings,
 FROM bookings
 GROUP BY property_id;
 
+SELECT user_id, COUNT(*) AS total_bookings
+FROM Bookings
+GROUP BY user_id;
+
+
+--3. Implement Indexes for Optimization
+
+CREATE INDEX idx_user_email ON Users(email);
+SELECT * FROM Users WHERE email = 'uthman@example.com';
+
+--4. Optimize Complex Queries
+
+
